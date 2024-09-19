@@ -1,19 +1,26 @@
-import random
+# CALCULARADORA
 
-colores = ["rojo", "naranja", "amarillo"]
+dato1 = int(input("Ingrese el primer valor "))
+dato2 = int(input("Ingrese el segudo valor "))
 
-print("El color es:", colores[2])
+opcion = input("1 - Suma, 2- Resta, 3- Multiplica, 4- Divide: ")
 
-seleccion = input("Escoja un numero: ")
-
-computadora = random.randint(0,5)
-
-if int(seleccion) == computadora:
-  print("seleccionaron el mismo numero")
+if opcion == "1":
+    print("Sera una suma")
+    resultado = dato1 + dato2
+    print(resultado)
+elif opcion == "2": 
+    print("Sera una resta")
+    resultado = dato1 - dato2
+    print(resultado)    
+elif opcion == "3":
+    print("Sera una multicplicacion")
+    resultado = dato1 * dato2
+    print(resultado)    
+elif opcion == "4":
+    print("Sera una division")
+    resultado = dato1 / dato2
+    print(resultado)
 else:
-  print("Seleccionaron diferentes numeros")
-
-print("Opcion de la computadora ", computadora)
-
-  
-
+    print("Opcion incorrecta!")
+        
