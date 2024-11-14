@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kurale", serif;
+    text-decoration: none;
+    list-style: none;
+}
+.encabezado{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 35px 12%;
+    background: rgba(0,0,0,0.8);
+    box-shadow: 10px 5px 5px black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 25px;
+    color:aliceblue;
+    font-weight: 600;
+}
+
+.logo:hover{
+    color: orangered;
+    text-shadow: 0 0 25px orangered,
+                 0 0 50px orangered;
+    transform: scale(1,1);
+}
+
+span{
+    color: orangered;
+}
+
+.menu a{
+    font-size: 18px;
+    color:aliceblue ;
+    font-weight: 500;
+    margin: 0 20px;
+    border-bottom: 3px solid transparent;
+}
+
+.menu a:hover{
+    color: orangered;
+    border-bottom: 3px solid orangered;
+}
+
+.contacto{
+    padding: 10px 28px;
+    background-color: white;
+    color: black;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.contacto:hover{
+    background-color: orangered;
+    box-shadow: 0 0 25px orangered;
+    color: white;
+}
+
+.home{
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(123, 123, 115);
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12% 0;
+}
+
+.contenido{
+    max-width: 800px;
+}
+
+.contenido h3{
+    font-size: 42px;
+}
+
+.contenido h1{
+    font-size: 62px;
+    line-height: 1.2;
+}
+
+.contenido p{
+    font-size: 16px;
+    margin: 25px 0 30px;
+}
+
+.botones{
+    width: 345px;
+    display: flex;
+    gap: 2em;
+}
+
+.boton1{
+    padding: 15px 28px;
+    background-color: black;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.boton1:hover{
+    background-color: bisque;
+    color: black;
+    border: 2px solid black;
+}
+
+.boton2{
+    padding: 15px 28px;
+    background-color: orangered;
+    color: white;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.boton2:hover{
+    background-color: white;
+    color: orangered;
+}
+
+img{
+    border-radius: 30%;
+    width: 550px;
+}
